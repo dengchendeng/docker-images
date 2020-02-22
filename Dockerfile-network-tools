@@ -1,0 +1,2 @@
+FROM centos:7
+RUN yum install -y iperf iproute hping3 syscat procps-ng bind-utils traceroute ethtool net-tools iputils
